@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ dane.question }}</title>
+</head>
+<body>
+<h1>{{ dane.question }}</h1>
+Wynik:   {{vote}}
+{% for e in vote %}
+      <li>{{ e }} {{ vote[e] }} </li>
+{% endfor %}
+</body>
+</html>
